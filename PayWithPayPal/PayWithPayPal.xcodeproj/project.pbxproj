@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547A0F142882F7830062D6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A0F132882F7830062D6BA /* AppDelegate.swift */; };
+		547A0F162882F7830062D6BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A0F152882F7830062D6BA /* SceneDelegate.swift */; };
+		547A0F182882F7830062D6BA /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A0F172882F7830062D6BA /* ProductVC.swift */; };
+		547A0F1B2882F7830062D6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547A0F192882F7830062D6BA /* Main.storyboard */; };
+		547A0F1D2882F7860062D6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547A0F1C2882F7860062D6BA /* Assets.xcassets */; };
+		547A0F202882F7860062D6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547A0F1E2882F7860062D6BA /* LaunchScreen.storyboard */; };
+		547A0F2C2882F8050062D6BA /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 547A0F2B2882F8050062D6BA /* products.json */; };
+		547A0F2E2882FAE20062D6BA /* ProductTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A0F2D2882FAE20062D6BA /* ProductTVCell.swift */; };
+		547A0F302882FC770062D6BA /* CheckoutTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A0F2F2882FC770062D6BA /* CheckoutTVCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		547A0F102882F7830062D6BA /* PayWithPayPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayWithPayPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547A0F132882F7830062D6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		547A0F152882F7830062D6BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		547A0F172882F7830062D6BA /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		547A0F1A2882F7830062D6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547A0F1C2882F7860062D6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547A0F1F2882F7860062D6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547A0F212882F7860062D6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547A0F2B2882F8050062D6BA /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		547A0F2D2882FAE20062D6BA /* ProductTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTVCell.swift; sourceTree = "<group>"; };
+		547A0F2F2882FC770062D6BA /* CheckoutTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTVCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547A0F0D2882F7830062D6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547A0F072882F7830062D6BA = {
+			isa = PBXGroup;
+			children = (
+				547A0F122882F7830062D6BA /* PayWithPayPal */,
+				547A0F112882F7830062D6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547A0F112882F7830062D6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F102882F7830062D6BA /* PayWithPayPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547A0F122882F7830062D6BA /* PayWithPayPal */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F272882F7970062D6BA /* AppDelegates */,
+				547A0F282882F7A30062D6BA /* Products */,
+				547A0F292882F7B30062D6BA /* Views */,
+				547A0F2A2882F7D60062D6BA /* Resources */,
+			);
+			path = PayWithPayPal;
+			sourceTree = "<group>";
+		};
+		547A0F272882F7970062D6BA /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F132882F7830062D6BA /* AppDelegate.swift */,
+				547A0F152882F7830062D6BA /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		547A0F282882F7A30062D6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F31288301450062D6BA /* Controllers */,
+				547A0F32288301490062D6BA /* Views */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		547A0F292882F7B30062D6BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F192882F7830062D6BA /* Main.storyboard */,
+				547A0F1E2882F7860062D6BA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		547A0F2A2882F7D60062D6BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F1C2882F7860062D6BA /* Assets.xcassets */,
+				547A0F212882F7860062D6BA /* Info.plist */,
+				547A0F2B2882F8050062D6BA /* products.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		547A0F31288301450062D6BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F172882F7830062D6BA /* ProductVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		547A0F32288301490062D6BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				547A0F2D2882FAE20062D6BA /* ProductTVCell.swift */,
+				547A0F2F2882FC770062D6BA /* CheckoutTVCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547A0F0F2882F7830062D6BA /* PayWithPayPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547A0F242882F7860062D6BA /* Build configuration list for PBXNativeTarget "PayWithPayPal" */;
+			buildPhases = (
+				547A0F0C2882F7830062D6BA /* Sources */,
+				547A0F0D2882F7830062D6BA /* Frameworks */,
+				547A0F0E2882F7830062D6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayWithPayPal;
+			productName = PayWithPayPal;
+			productReference = 547A0F102882F7830062D6BA /* PayWithPayPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547A0F082882F7830062D6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					547A0F0F2882F7830062D6BA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 547A0F0B2882F7830062D6BA /* Build configuration list for PBXProject "PayWithPayPal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547A0F072882F7830062D6BA;
+			productRefGroup = 547A0F112882F7830062D6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547A0F0F2882F7830062D6BA /* PayWithPayPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547A0F0E2882F7830062D6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A0F202882F7860062D6BA /* LaunchScreen.storyboard in Resources */,
+				547A0F2C2882F8050062D6BA /* products.json in Resources */,
+				547A0F1D2882F7860062D6BA /* Assets.xcassets in Resources */,
+				547A0F1B2882F7830062D6BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547A0F0C2882F7830062D6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A0F302882FC770062D6BA /* CheckoutTVCell.swift in Sources */,
+				547A0F182882F7830062D6BA /* ProductVC.swift in Sources */,
+				547A0F2E2882FAE20062D6BA /* ProductTVCell.swift in Sources */,
+				547A0F142882F7830062D6BA /* AppDelegate.swift in Sources */,
+				547A0F162882F7830062D6BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		547A0F192882F7830062D6BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547A0F1A2882F7830062D6BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547A0F1E2882F7860062D6BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547A0F1F2882F7860062D6BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547A0F222882F7860062D6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		547A0F232882F7860062D6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547A0F252882F7860062D6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayWithPayPal/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projvn.devs.PayWithPayPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547A0F262882F7860062D6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayWithPayPal/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projvn.devs.PayWithPayPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547A0F0B2882F7830062D6BA /* Build configuration list for PBXProject "PayWithPayPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A0F222882F7860062D6BA /* Debug */,
+				547A0F232882F7860062D6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547A0F242882F7860062D6BA /* Build configuration list for PBXNativeTarget "PayWithPayPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A0F252882F7860062D6BA /* Debug */,
+				547A0F262882F7860062D6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547A0F082882F7830062D6BA /* Project object */;
+}

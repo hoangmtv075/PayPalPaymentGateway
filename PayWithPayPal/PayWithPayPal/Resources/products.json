@@ -1,0 +1,16 @@
+{
+    "Products": [
+        {
+            "name": "Bulova",
+            "price": 195.98,
+            "description": "The Bulova, American Clipper series features a stainless steel 42mm case, with a fixed bezel, a black (skeletal window) dial and a scratch resistant mineral crystal",
+            "image": "watches1"
+        },
+        {
+            "name": "Zeno",
+            "price": 950.00,
+            "description": "The ZenoThe Watch features a stainless steel 48mm case, with a black uni-directional rotating bezel, a black dial and a scratch resistant sapphire crystal",
+            "image": "watches2"
+        }
+    ]
+}
